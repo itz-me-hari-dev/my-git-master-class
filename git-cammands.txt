@@ -1,0 +1,41 @@
+# Git Cheat Sheet
+
+## Setup
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+## Basic Commands
+git init                   # Initialize a new repository
+git clone <url>            # Clone a repository
+git status                 # Show status of changes
+git add <file>             # Stage a file
+git add .                  # Stage all changes
+git commit -m "message"    # Commit staged changes
+git log                    # Show commit history
+
+## Branching
+git branch                 # List branches
+git branch <name>          # Create a new branch
+git checkout <name>        # Switch branches
+git merge <name>           # Merge branch into current
+
+## Remote
+git remote -v              # List remotes
+git push                   # Push changes to remote
+git pull                   # Fetch and merge from remote
+
+## Undo
+git checkout -- <file>     # Discard changes in file
+git reset HEAD <file>      # Unstage a file
+git revert <commit>        # Revert a commit
+
+## Stash
+git stash                  # Stash changes
+git stash pop              # Apply stashed changes
+
+## Other
+git diff                   # Show changes
+git rm <file>              # Remove a file
+git mv <old> <new>         # Rename a file
+
+# End of Cheat
