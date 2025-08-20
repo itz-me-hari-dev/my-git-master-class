@@ -38,4 +38,11 @@ git diff                   # Show changes
 git rm <file>              # Remove a file
 git mv <old> <new>         # Rename a file
 
+## Branching
+git branch                 # List branches
+git branch <name>          # Create a new branch
+git checkout <name>        # Switch branches
+git merge <name>           # Merge branch into current
+git branch -m <old> <new>  # Rename a branch
+
 # End of Cheat
